@@ -15,6 +15,11 @@ Tools:         git • VS Code • Valgrind • NumPy • Matplotlib • yfinanc
 
 ## Featured Projects
 
+### [Simple Threaded HTTP Load Balancer ](https://github.com/sinahuster/load-balancer) *(Python - Personal)*
+- Built multi-threaded HTTP load balancer in Python using raw sockets; routes requests by path prefix with round-robin across healthy backends
+- Ensured thread safety with locks; added health checks with failure threshold to dynamically skip unhealthy servers 
+- Made configurable via CLI (argparse); included bash-based test suite verifying routing, concurrency, and failover
+
 ### [Monte Carlo Stock Price Simulator](https://github.com/sinahuster/monte-carlo-stock-simulator) *(Python - Personal)*
 - 10,000-path Geometric Brownian Motion model for AAPL price forecasting
 - Real data via `yfinance`, CLI with `--target`, `--days`, `--seed`, `--save`
@@ -30,7 +35,6 @@ Tools:         git • VS Code • Valgrind • NumPy • Matplotlib • yfinanc
 - Input validation and `Makefile` build system
 
 ### In Progress
-- **Network Load Balancer** – Raw sockets in Python (`socket` API)
 
 ## 🌱 Currently Learning
 
